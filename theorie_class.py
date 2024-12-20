@@ -3,7 +3,7 @@
 # affectation / boucle / condition /sd ...
 
 # Programation Orienté Objet
-# Encapsulation : regrouper des choses(parametre / methodes) dans des objets
+# Encapsulation : regrouper des choses(parametre / methodes) dans des objets / private / protected
 # Abstraction : créer des types abstraits
 # Heritage : créer des classes enfants à partir des definition de classes parents
 # Polymorphisme .. des objets de types differents se comportent de la meme maniere
