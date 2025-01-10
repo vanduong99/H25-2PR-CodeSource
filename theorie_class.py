@@ -2,8 +2,8 @@
 # ligne par ligne
 # affectation / boucle / condition /sd ...
 
-# Programation Orienté Objet
-# 1 - Encapsulation : regrouper des choses(parametre / methodes) dans des objets / private / protected
+# Programation Orienté Objet = architecture(lien) de librairies(ensemble de class)
+# 1 - Encapsulation : regrouper des choses (parametre / methodes) dans des objets / private / protected
 # 2 - Abstraction : créer des types abstraits
 # 3 - Heritage : créer des classes enfants à partir des definition de classes parents
 # 4 - Polymorphisme .. des objets de types differents se comportent de la meme maniere
