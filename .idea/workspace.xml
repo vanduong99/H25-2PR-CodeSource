@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb720de3-3114-43c2-b22c-d48099aef2a6" name="Changes" comment="exemple personne">
-      <change afterPath="$PROJECT_DIR$/exemple_Personne_abs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemple_forme_abs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
+    <list default="true" id="eb720de3-3114-43c2-b22c-d48099aef2a6" name="Changes" comment="GUI initial">
+      <change beforePath="$PROJECT_DIR$/.idea/PythonProject3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theorie_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/theorie_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voiture.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Voiture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple_Personne.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/exemple_Personne.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple_Personne_abs.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/exemple_Personne_abs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple_Voiture.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/exemple_Voiture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/exemple_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple_forme_abs.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/exemple_forme_abs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/img_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theorie_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/theorie_class.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +33,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="38f24046-824a-4238-8fb8-b75e37342b0a" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -40,32 +44,108 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.exemple_Personne.executor": "Run",
-    "Python.exemple_Personne_abs.executor": "Run",
-    "Python.exemple_Voiture.executor": "Debug",
-    "Python.exemple_class.executor": "Run",
-    "Python.exemple_forme_abs.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/rbaba/PycharmProjects/PythonProject3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.displaywin (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.exemple_Personne (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.exemple_Personne.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exemple_Personne_abs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exemple_Voiture.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.exemple_class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exemple_forme_abs.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/SessionA24/PythonOOP-2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rbaba\PycharmProjects\PythonProject3" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\SessionA24\PythonOOP-2\Pythonprojet\H25-2PR-GR-1293-2\POO_2\H25-2PR-CodeSource\OOP" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.exemple_forme_abs">
+  <component name="RunManager" selected="Python.displaywin (1)">
+    <configuration name="displaywin (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UI/displaywin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="displaywin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="G:\SessionA24\PythonOOP-2\Pythonprojet\H25-2PR-GR-1293-2\POO_2\H25-2PR-CodeSource\UI\displaywin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="exemple_Personne (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/exemple_Personne.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="exemple_Personne" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject3" />
       <option name="ENV_FILES" value="" />
@@ -80,30 +160,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exemple_Personne.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="exemple_Personne_abs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject3" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exemple_Personne_abs.py" />
+      <option name="SCRIPT_NAME" value="G:\SessionA24\PythonOOP-2\Pythonprojet\H25-2PR-GR-1293-2\POO_2\H25-2PR-CodeSource\OOP\exemple_Personne.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +183,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exemple_forme_abs.py" />
+      <option name="SCRIPT_NAME" value="G:\SessionA24\PythonOOP-2\Pythonprojet\H25-2PR-GR-1293-2\POO_2\H25-2PR-CodeSource\OOP\exemple_forme_abs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,9 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.exemple_forme_abs" />
-        <item itemvalue="Python.exemple_Personne_abs" />
+        <item itemvalue="Python.displaywin (1)" />
+        <item itemvalue="Python.exemple_Personne (1)" />
+        <item itemvalue="Python.displaywin" />
         <item itemvalue="Python.exemple_Personne" />
+        <item itemvalue="Python.exemple_forme_abs" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +220,10 @@
       <updated>1734718903419</updated>
       <workItem from="1734718904478" duration="7597000" />
       <workItem from="1736514293888" duration="8124000" />
+      <workItem from="1736807934417" duration="523000" />
+      <workItem from="1736809005496" duration="51000" />
+      <workItem from="1736809418870" duration="237000" />
+      <workItem from="1736809899092" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -186,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736518922579</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="GUI initial">
+      <option name="closed" value="true" />
+      <created>1736809511430</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736809511430</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +266,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="exemple personne" />
-    <option name="LAST_COMMIT_MESSAGE" value="exemple personne" />
+    <MESSAGE value="GUI initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="GUI initial" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -207,10 +279,14 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject3$exemple_Voiture.coverage" NAME="exemple_Voiture Coverage Results" MODIFIED="1734724247490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject3$exemple_Personne.coverage" NAME="exemple_Personne Coverage Results" MODIFIED="1736518323281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject3$exemple_class.coverage" NAME="exemple_class Coverage Results" MODIFIED="1734721712597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject3$exemple_Personne_abs.coverage" NAME="exemple_Personne_abs Coverage Results" MODIFIED="1736521267645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject3$exemple_Voiture.coverage" NAME="exemple_Voiture Coverage Results" MODIFIED="1734724247490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject3$exemple_forme_abs.coverage" NAME="exemple_forme_abs Coverage Results" MODIFIED="1736522623699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject3$exemple_Personne.coverage" NAME="exemple_Personne Coverage Results" MODIFIED="1736518323281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/H25_2PR_CodeSource$exemple_Personne.coverage" NAME="exemple_Personne Coverage Results" MODIFIED="1736807964125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/H25_2PR_CodeSource$exemple_Personne__1_.coverage" NAME="exemple_Personne (1) Coverage Results" MODIFIED="1736809617584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
+    <SUITE FILE_PATH="coverage/H25_2PR_CodeSource$displaywin__1_.coverage" NAME="displaywin (1) Coverage Results" MODIFIED="1736809915679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
+    <SUITE FILE_PATH="coverage/H25_2PR_CodeSource$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1736809445075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
   </component>
 </project>
