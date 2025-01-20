@@ -1,89 +1,59 @@
-# Étape 1
+# application graphique avec pyQt6
+# 0- install la librairie : pip install PyQt6
+from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton
 
-# from PyQt6.QtWidgets import QApplication, QWidget, QMainWindow, QPushButton
-# # Première étape : création d'une application Qt avec QApplication
-# # afin d'avoir un fonctionnement correct avec IDLE ou Spyder
-# # on vérifie s'il existe déjà une instance de QApplication
-# app = QApplication([])
-# # création d'une fenêtre avec QWidget dont on place la référence dans fen
-# fen = QWidget()
-# # la fenêtre est rendue visible
-# fen.show()
-# # exécution de l'application, l'exécution permet de gérer les événements
-# app.exec()
+# 1- créer un objet QApllication   app
+# 2- créer un objet Qwidget       fen
+# 3- appeler la méthode de l'objet QWidget fen.show()
+# 4- appeler la méthode executer de l'objet app.exec()
+# 5- autres objets : QPushButton, QLabel, QLineEdit
 
-# Étape 2
+def action_ok():
+    # print("ok")
+    # print("Bonjour ", input1.text()," ", input2.text())
+    lbl3.setText("Bonjour "+ input1.text()+" "+ input2.text())
 
-# from PyQt6.QtWidgets import QApplication, QWidget
-#
-# class MyWindow(QWidget):
-#     def __init__(self, fen):
-#         super().__init__()
-#         self.fen = fen
-#
-#     def build(self):
-#         self.fen.setWindowTitle('Hi')
-#
-#     app = QApplication([])
-#      fen = QWidget()
-#     mywin = MyWindow(fen)
-#     mywin.build()
-#
-#     fen.show()
-#     app.exec()
-
-# Étape 3
-
-# import sys
-# from PyQt6.QtWidgets import QApplication, QWidget, QLabel
-# class MyWindow(QWidget):
-#     def __init__(self, win):
-#         super().__init__()
-#         self.win = win
-#
-#     def build(self):
-#         self.win.setWindowTitle("PyQt6 from object approach")
-#         self.win.setGeometry(100, 100, 400, 150)
-#
-#         # create a QLabel
-#         qlabel = QLabel(self.win)
-#         qlabel.setText("Hello World !")
-#         # Use QSS designe
-#         qlabel.setStyleSheet(
-#             "background: darkblue; border: 2px solid red; color:yellow; font:broadway; font-size:36px;")
-#
-#         # define the qlabel dimensions & position
-#         qlabel.setGeometry(50, 50, 200, 50)
-#
-# if __name__ == '__main__':
-#     app = QApplication([])
-#     fen = QWidget()
-#     mywin = MyWindow(fen)
-#     mywin.build()
-#     fen.show()
-#     app.exec()
-#
-
-# Étape 4
-import sys
-from PyQt6.QtWidgets import QApplication, QWidget, QLabel
+def action_cancel():
+    input1.setText("")
+    input2.setText("")
+    lbl3.setText("Message : ")
 
 app = QApplication([])
-widget = QWidget()
-widget.setGeometry(50, 50, 350, 200)
-widget.setWindowTitle("Label Example")
+fen = QWidget()
 
-# create a QLabel
-qlabel = QLabel(widget)
-qlabel.setText("Hello World !")
+# parametre de fenetre
+fen.setWindowTitle("Titre de la fenetre")
+fen.setGeometry(300, 300, 400, 350)
 
-# define the qlabel dimensions & position
-qlabel.setGeometry(50, 50, 250, 50)
+# QLabel
+lbl1 = QLabel(fen)
+lbl1.setText("nom : ")
+lbl1.setGeometry(10, 10, 50, 30)
 
-# Use QSS designe
-qlabel.setStyleSheet("background: darkblue; border: 2px solid red; color:yellow; font:broadway; font-size:36px;")
+lbl2 = QLabel(fen)
+lbl2.setText("prenom : ")
+lbl2.setGeometry(10, 50, 50, 30)
 
-widget.show()
+lbl3 = QLabel(fen)
+lbl3.setText("message : ")
+lbl3.setGeometry(10, 80, 150, 50)
+
+# QLineEdit
+input1 = QLineEdit(fen)
+input1.setGeometry(80, 10, 200, 30)
+input2 = QLineEdit(fen)
+input2.setGeometry(80, 50, 200, 30)
+
+# QPushButton
+btn_ok = QPushButton(fen)
+btn_ok.setText("Ok")
+btn_ok.setGeometry(10, 140, 100, 50)
+btn_ok.clicked.connect(action_ok)
+
+btn_cancel = QPushButton(fen)
+btn_cancel.setText("Cancel")
+btn_cancel.setGeometry(130, 140, 100, 50)
+btn_cancel.clicked.connect(action_cancel)
+
+fen.show()
 app.exec()
-
-
