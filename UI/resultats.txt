@@ -1,4 +1,0 @@
-Paul,111
-Duong,4000
-Vincent,3000
-Monique,1122
